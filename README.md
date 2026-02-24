@@ -33,6 +33,7 @@ src/
 ├── App.tsx # Root component
 └── main.tsx # Entry point
 
+##Live preview
 Simply visit the [https://moonlit-kitten-4949d0.netlify.app/#projects]
 
 
