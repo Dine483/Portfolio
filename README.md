@@ -1,15 +1,11 @@
-# 🌐 Dinesh Portfolio Website
+#  Dinesh Portfolio Website
 
 This is my personal portfolio website built to showcase my skills, projects, education, and achievements.  
 It also includes a contact form that allows visitors to reach me directly.
 
 ---
 
-##  Live Preview
-(Add your deployed link here once available)
 
-Example:
-https://your-portfolio-link.vercel.app
 
 ---
 
@@ -26,12 +22,19 @@ https://your-portfolio-link.vercel.app
 ##  Project Structure
 src/
 ├── components/ # Reusable UI components (Hero, About, Contact, etc.)
+
 ├── assets/ # Images and static assets
+
 ├── pages/ # Page-level components
+
 ├── hooks/ # Custom React hooks
+
 ├── lib/ # Utility functions
+
 ├── App.tsx # Root component
+
 └── main.tsx # Entry point
+
 
 Simply visit the [https://moonlit-kitten-4949d0.netlify.app/#projects]
 
@@ -84,7 +87,11 @@ npm run dev
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
 cd <PROJECT_FOLDER_NAME>
+
 npm install
+
 npm run dev
+
 npm run build
+
 
