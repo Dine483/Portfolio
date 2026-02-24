@@ -1,26 +1,59 @@
-# Welcome to your Lovable project
+# 🌐 Dinesh Portfolio Website
 
-## Project info
+This is my personal portfolio website built to showcase my skills, projects, education, and achievements.  
+It also includes a contact form that allows visitors to reach me directly.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+##  Live Preview
+(Add your deployed link here once available)
 
-There are several ways of editing your application.
+Example:
+https://your-portfolio-link.vercel.app
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+##  Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+-  Vite
+-  React
+-  TypeScript
+-  Tailwind CSS
+- shadcn/ui
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+##  Project Structure
+src/
+├── components/ # Reusable UI components (Hero, About, Contact, etc.)
+├── assets/ # Images and static assets
+├── pages/ # Page-level components
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions
+├── App.tsx # Root component
+└── main.tsx # Entry point
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Simply visit the [https://moonlit-kitten-4949d0.netlify.app/#projects]
 
-Follow these steps:
+
+---
+
+##  Features
+
+- Responsive modern UI
+- Hero section with profile image
+- About, Skills, Projects, Education sections
+- Contact form (Email integration)
+- Clean and professional design
+- Mobile-friendly layout
+
+---
+
+## ⚙️ How to Run Locally
+
+### 1️ Clone the repository
+```sh
+git clone <YOUR_GIT_URL>
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -50,24 +83,8 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+cd <PROJECT_FOLDER_NAME>
+npm install
+npm run dev
+npm run build
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
